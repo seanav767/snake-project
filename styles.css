@@ -1,0 +1,28 @@
+/* this is my styles for my snake game */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-grid-canvas {
+    border: 1px solid #000;
+    background-color: #fff;
+
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 20px;
+}
